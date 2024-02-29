@@ -1,7 +1,7 @@
 plugin-test-esbuild-single
 =================
 
-Example of using `esbuild` with oclif
+Example of using `esbuild` to bundle a CLI into a single executable. **This is not an officially support use case. There may be severe limitations to using this approach.**
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
@@ -27,21 +27,24 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`bundle esbuild [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`](#bundle-esbuild-optionalarg-defaultarg-defaultfnarg)
-* [`bundle hello PERSON`](#bundle-hello-person)
-* [`bundle hello alias`](#bundle-hello-alias)
-* [`bundle hello world`](#bundle-hello-world)
-* [`bundle help [COMMANDS]`](#bundle-help-commands)
-* [`bundle plugins`](#bundle-plugins)
-* [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin)
-* [`bundle plugins:inspect PLUGIN...`](#bundle-pluginsinspect-plugin)
-* [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin-1)
-* [`bundle plugins:link PLUGIN`](#bundle-pluginslink-plugin)
-* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin)
-* [`bundle plugins reset`](#bundle-plugins-reset)
-* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-1)
-* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-2)
-* [`bundle plugins update`](#bundle-plugins-update)
+- [plugin-test-esbuild-single](#plugin-test-esbuild-single)
+- [Usage](#usage)
+- [Commands](#commands)
+  - [`bundle esbuild [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`](#bundle-esbuild-optionalarg-defaultarg-defaultfnarg)
+  - [`bundle hello PERSON`](#bundle-hello-person)
+  - [`bundle hello alias`](#bundle-hello-alias)
+  - [`bundle hello world`](#bundle-hello-world)
+  - [`bundle help [COMMANDS]`](#bundle-help-commands)
+  - [`bundle plugins`](#bundle-plugins)
+  - [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin)
+  - [`bundle plugins:inspect PLUGIN...`](#bundle-pluginsinspect-plugin)
+  - [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin-1)
+  - [`bundle plugins:link PLUGIN`](#bundle-pluginslink-plugin)
+  - [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin)
+  - [`bundle plugins reset`](#bundle-plugins-reset)
+  - [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-1)
+  - [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-2)
+  - [`bundle plugins update`](#bundle-plugins-update)
 
 ## `bundle esbuild [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`
 
