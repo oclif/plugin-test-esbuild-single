@@ -1,0 +1,85 @@
+{
+  "name": "@oclif/plugin-test-esbuild-single",
+  "version": "0.0.0",
+  "description": "Bundled plugin for testing (single file executable)",
+  "author": "Salesforce",
+  "bugs": "https://github.com/oclif/plugin-test-esbuild-single/issues",
+  "keywords": [
+    "oclif"
+  ],
+  "bin": {
+    "bundle": "./bin/run.mjs"
+  },
+  "dependencies": {
+    "@oclif/core": "3.20.1-dev.0",
+    "@oclif/plugin-test-esm-1": "^0.7.1"
+  },
+  "devDependencies": {
+    "@oclif/prettier-config": "^0.2.1",
+    "@oclif/test": "^3",
+    "@types/chai": "^4",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^18",
+    "chai": "^4",
+    "esbuild": "^0.20.1",
+    "eslint": "^8.57.0",
+    "eslint-config-oclif": "^5",
+    "eslint-config-oclif-typescript": "^3",
+    "eslint-config-prettier": "^9.1.0",
+    "mocha": "^10",
+    "oclif": "4.4.13-dev.1",
+    "shx": "^0.3.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  },
+  "resolutions": {
+    "@oclif/core": "3.20.1-dev.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "/bin/run.mjs"
+  ],
+  "homepage": "https://github.com/oclif/plugin-test-esbuild-single",
+  "license": "MIT",
+  "oclif": {
+    "bin": "bundle",
+    "dirname": "bundle",
+    "commands": {
+      "strategy": "explicit",
+      "target": "./run.mjs",
+      "identifier": "COMMANDS"
+    },
+    "topicSeparator": " ",
+    "topics": {
+      "hello": {
+        "description": "Say hello to the world and others"
+      }
+    },
+    "hooks": {
+      "init": [
+        {
+          "target": "./run.mjs",
+          "identifier": "INIT_HOOK"
+        },
+        {
+          "target": "./run.mjs",
+          "identifier": "ESM1_INIT_HOOK"
+        }
+      ]
+    }
+  },
+  "repository": "oclif/plugin-test-esbuild-single",
+  "scripts": {
+    "build": "shx rm -rf dist && node bin/bundle.js",
+    "lint": "eslint . --ext .ts",
+    "postpack": "shx rm -f oclif.manifest.json",
+    "posttest": "yarn lint",
+    "prepack": "yarn build && oclif manifest && oclif readme",
+    "prepare": "yarn build",
+    "test": "yarn build && shx rm -rf tmp && shx mkdir tmp && shx cp bin/run.mjs tmp/run.mjs && mocha --forbid-only \"test/integration.test.ts\"",
+    "version": "oclif readme && git add README.md"
+  },
+  "type": "module"
+}
