@@ -1603,10 +1603,10 @@
     node-gyp "^10.0.0"
     which "^4.0.0"
 
-"@oclif/core@3.20.1-dev.0", "@oclif/core@^3", "@oclif/core@^3.10.2", "@oclif/core@^3.18.2", "@oclif/core@^3.19.2", "@oclif/core@dev":
-  version "3.20.1-dev.0"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.20.1-dev.0.tgz#3badb7be5d9a36510fff98a06afd4c8c655f86c0"
-  integrity sha512-00q7RlnIdQIT7W35/KtLMteJ8iEO+zGePXgvW/hnhq2Y4mS/5cv2ZwtkkLFcDS4KDCd+UDObOFwgDscywCU/1g==
+"@oclif/core@3.20.1-dev.1", "@oclif/core@^3", "@oclif/core@^3.10.2", "@oclif/core@^3.18.2", "@oclif/core@^3.19.2", "@oclif/core@dev":
+  version "3.20.1-dev.1"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.20.1-dev.1.tgz#e4b1a5f84a510c5858ca8145284a1b06d5ac66d9"
+  integrity sha512-B7G/QnzkJeGI2ef7PJ/k9PLhP0SdkXeXPnMbNzGv84L4ZfKzetpsrxRoxJB45+zjQObYz/AV1Yhs8Bux6TEQjQ==
   dependencies:
     "@types/cli-progress" "^3.11.5"
     ansi-escapes "^4.3.2"

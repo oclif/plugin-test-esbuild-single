@@ -1,5 +1,7 @@
 import {Command, Interfaces, execute} from '@oclif/core'
 import * as PluginTestEsm1 from '@oclif/plugin-test-esm-1'
+import {dirname} from 'node:path'
+import {fileURLToPath} from 'node:url'
 
 import pjson from '../package.json' assert {type: 'json'}
 import ESBuild from './commands/esbuild.js'
@@ -19,10 +21,9 @@ export const COMMANDS: Record<string, Command.Class> = {
 
 export async function run() {
   await execute({
-    dir: '.',
     loadOptions: {
       pjson: pjson as unknown as Interfaces.PJSON.Plugin,
-      root: '.'
+      root: dirname(fileURLToPath(import.meta.url)),
     },
   })
 }
