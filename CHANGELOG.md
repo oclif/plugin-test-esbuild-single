@@ -1,3 +1,12 @@
+## [0.1.7](https://github.com/oclif/plugin-test-esbuild-single/compare/0.1.6...0.1.7) (2024-04-11)
+
+
+### Bug Fixes
+
+* **deps:** bump tar from 6.1.11 to 6.2.1 ([d6ddcbd](https://github.com/oclif/plugin-test-esbuild-single/commit/d6ddcbdb62cc7f97855dcb6bae077febcf079963))
+
+
+
 ## [0.1.6](https://github.com/oclif/plugin-test-esbuild-single/compare/0.1.5...0.1.6) (2024-04-06)
 
 
