@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
-    "@oclif/test": "^3",
     "@types/chai": "^4",
     "@types/mocha": "^10.0.6",
     "@types/node": "^18",
