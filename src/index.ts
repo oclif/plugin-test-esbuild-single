@@ -22,7 +22,7 @@ export const COMMANDS: Record<string, Command.Class> = {
 export async function run() {
   await execute({
     loadOptions: {
-      pjson: pjson as unknown as Interfaces.PJSON.Plugin,
+      pjson: pjson as unknown as Interfaces.PJSON,
       root: dirname(fileURLToPath(import.meta.url)),
     },
   })
