@@ -1,3 +1,21 @@
+# [0.2.0](https://github.com/oclif/plugin-test-esbuild-single/compare/0.1.17...0.2.0) (2024-06-17)
+
+
+### Bug Fixes
+
+* compilation error ([1d10514](https://github.com/oclif/plugin-test-esbuild-single/commit/1d1051432a59fd3b4cfb445fa489964d0af277c9))
+* **deps:** bump @oclif/core from 4.0.0 to 4.0.3 ([#67](https://github.com/oclif/plugin-test-esbuild-single/issues/67)) ([d021619](https://github.com/oclif/plugin-test-esbuild-single/commit/d02161924c691d07f4f940cfa52d5f27d8e11bf5))
+* **deps:** bump @oclif/core from 4.0.3 to 4.0.6 ([#70](https://github.com/oclif/plugin-test-esbuild-single/issues/70)) ([a004149](https://github.com/oclif/plugin-test-esbuild-single/commit/a004149541b841479275eb5fdaa448b71bc04ff0))
+* **deps:** bump @oclif/plugin-test-esm-1 from 0.8.0 to 0.8.4 ([#69](https://github.com/oclif/plugin-test-esbuild-single/issues/69)) ([10dbedc](https://github.com/oclif/plugin-test-esbuild-single/commit/10dbedc81210c9009d96b99351064889855e5035))
+* **deps:** bump braces from 3.0.2 to 3.0.3 ([#73](https://github.com/oclif/plugin-test-esbuild-single/issues/73)) ([7369961](https://github.com/oclif/plugin-test-esbuild-single/commit/73699614e30eac0f5932f604268ca514b6abad25))
+
+
+### Features
+
+* core v4 ([cbed998](https://github.com/oclif/plugin-test-esbuild-single/commit/cbed9983cb8f6d0ce0dc2da3d7011a36e88d76c4))
+
+
+
 ## [0.1.17](https://github.com/oclif/plugin-test-esbuild-single/compare/0.1.16...0.1.17) (2024-06-01)
 
 
