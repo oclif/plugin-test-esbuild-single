@@ -1354,10 +1354,10 @@
     which "^4.0.0"
     yarn "^1.22.22"
 
-"@oclif/plugin-test-esm-1@^0.8.26":
-  version "0.8.26"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-test-esm-1/-/plugin-test-esm-1-0.8.26.tgz#95fab1a5eb546ef9d80392041a1637625e655114"
-  integrity sha512-Ml73l5MKoTkFH7XUXKD/G/JF9dwHWUqfkxIaMK+O3eRLpY4VgzrSHm2uQBq4UIioQFdsdn7Pnhtxvrhdqpwsng==
+"@oclif/plugin-test-esm-1@^0.8.29":
+  version "0.8.29"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-test-esm-1/-/plugin-test-esm-1-0.8.29.tgz#2743a4e2c9f2f359fd0669af7c2f9252b7eeebb4"
+  integrity sha512-4QmsK8MBzPWxbYC2MQYJqdz84d5fm9FHENPNVXofu5tx+IO7Woee/be+yASK016KaiNmnzThEwoBPYE5+6eMgw==
   dependencies:
     "@oclif/core" "^4"
     "@oclif/plugin-help" "^6"
