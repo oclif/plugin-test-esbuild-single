@@ -9,6 +9,7 @@ const __dirname = dirname(__filename)
 
 describe('Bundled CLI (single file)', () => {
   const cli = join(__dirname, '..', 'tmp', 'run.mjs')
+
   before(async () => {
     if (!existsSync(join(__dirname, '..', 'bin', 'run.mjs'))) {
       throw new Error('CLI has not been built yet. Run `yarn run build` before running tests')
