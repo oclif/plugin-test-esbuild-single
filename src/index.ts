@@ -1,4 +1,4 @@
-import {Command, Interfaces, execute} from '@oclif/core'
+import {Command, execute, Interfaces} from '@oclif/core'
 import * as PluginTestEsm1 from '@oclif/plugin-test-esm-1'
 import {dirname} from 'node:path'
 import {fileURLToPath} from 'node:url'
