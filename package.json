@@ -15,7 +15,7 @@
     "@oclif/plugin-test-esm-1": "^0.8.93"
   },
   "devDependencies": {
-    "@eslint/compat": "^1.4.0",
+    "@eslint/compat": "^1.4.1",
     "@oclif/prettier-config": "^0.2.1",
     "@types/chai": "^4",
     "@types/mocha": "^10.0.10",
