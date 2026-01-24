@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@oclif/core": "^4",
-    "@oclif/plugin-test-esm-1": "^0.8.101"
+    "@oclif/plugin-test-esm-1": "^0.8.102"
   },
   "devDependencies": {
     "@eslint/compat": "^1.4.1",
