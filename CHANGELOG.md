@@ -1,3 +1,12 @@
+## [0.2.96](https://github.com/oclif/plugin-test-esbuild-single/compare/0.2.95...0.2.96) (2026-03-14)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/core from 4.8.0 to 4.9.0 ([#442](https://github.com/oclif/plugin-test-esbuild-single/issues/442)) ([c2dfc52](https://github.com/oclif/plugin-test-esbuild-single/commit/c2dfc52df0ba73fcb3bd82a948cca806cd152afd))
+
+
+
 ## [0.2.95](https://github.com/oclif/plugin-test-esbuild-single/compare/0.2.94...0.2.95) (2026-02-14)
 
 
