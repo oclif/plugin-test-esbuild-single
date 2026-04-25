@@ -1,3 +1,12 @@
+## [0.2.107](https://github.com/oclif/plugin-test-esbuild-single/compare/0.2.106...0.2.107) (2026-04-25)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-test-esm-1 from 0.8.114 to 0.8.115 ([#463](https://github.com/oclif/plugin-test-esbuild-single/issues/463)) ([592e5d6](https://github.com/oclif/plugin-test-esbuild-single/commit/592e5d69382466bc9698d810aab78ab5b1e6b965))
+
+
+
 ## [0.2.106](https://github.com/oclif/plugin-test-esbuild-single/compare/0.2.105...0.2.106) (2026-04-18)
 
 
