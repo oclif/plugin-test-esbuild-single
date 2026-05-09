@@ -1,3 +1,12 @@
+## [0.2.112](https://github.com/oclif/plugin-test-esbuild-single/compare/0.2.111...0.2.112) (2026-05-09)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-xml-builder from 1.1.3 to 1.2.0 ([#468](https://github.com/oclif/plugin-test-esbuild-single/issues/468)) ([9c8ae48](https://github.com/oclif/plugin-test-esbuild-single/commit/9c8ae48927121382a616050bf6f29c81288ada51))
+
+
+
 ## [0.2.111](https://github.com/oclif/plugin-test-esbuild-single/compare/0.2.110...0.2.111) (2026-05-09)
 
 
