@@ -8,6 +8,7 @@
     "target": "es2022",
     "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
+    "types": ["node", "mocha"]
   },
   "include": ["./src/**/*"],
   "ts-node": {
