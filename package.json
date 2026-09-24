@@ -11,8 +11,8 @@
     "bundle": "./bin/run.mjs"
   },
   "dependencies": {
-    "@oclif/core": "^4",
-    "@oclif/plugin-test-esm-1": "^0.8.139"
+    "@oclif/core": "^5.0.1",
+    "@oclif/plugin-test-esm-1": "^0.8.150"
   },
   "devDependencies": {
     "@eslint/compat": "^1.4.1",
@@ -26,10 +26,10 @@
     "eslint-config-oclif": "^6.0.177",
     "eslint-config-prettier": "^10.1.8",
     "mocha": "^10",
-    "oclif": "^4.23.28",
+    "oclif": "^6.0.1",
     "shx": "^0.4.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5"
+    "typescript": "^6"
   },
   "engines": {
     "node": ">=18.0.0"
